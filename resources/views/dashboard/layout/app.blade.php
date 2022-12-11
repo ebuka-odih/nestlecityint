@@ -89,7 +89,7 @@
             <div class="content-header bg-header-dark">
                 <!-- Logo -->
                 <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
-                    Ally International Commerce<span class="opacity-75"> Bank</span>
+                    Nestlecity<span class="opacity-75"> International</span>
                 </a>
                 <!-- END Logo -->
             </div>

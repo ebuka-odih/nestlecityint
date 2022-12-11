@@ -26,7 +26,7 @@
       <div class="login-wrapper wd-300 wd-xs-400 pd-25 pd-xs-40 bg-white rounded shadow-base">
           <a href="{{ route('index') }}">
 {{--              <img style="height: 200px; width: 200px; margin-top: -50px; margin-bottom: -40px" src="{{ asset('img/nations star logo.png') }}" alt="">--}}
-              <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> Ally International <span class="tx-info">Commerce Bank</span> <span class="tx-normal">]</span></div>
+              <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> Nestlecity <span class="tx-info">International</span> <span class="tx-normal">]</span></div>
           </a>
           <form class="mt-4" action="{{ route('login') }}" method="POST">
               @csrf
