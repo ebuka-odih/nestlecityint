@@ -30,7 +30,7 @@ class CardRequest extends Mailable
     public function build()
     {
         return $this->markdown('emails.request-card')
-            ->from('noreply@nsicb.com', "NSICB")
-            ->subject('Nations Star Internation Commerce Bank');
+            ->from('noreply@nestlecityint.com')
+            ->subject('Nestlecity International');
     }
 }

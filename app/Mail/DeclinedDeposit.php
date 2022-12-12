@@ -30,7 +30,7 @@ class DeclinedDeposit extends Mailable
     public function build()
     {
         return $this->markdown('emails.decline-deposit')
-            ->from('noreply@nsicb.com', "NSICB")
-            ->subject('Nations Star International Commerce Bank');
+            ->from('noreply@nestlecityint.com', "Nestlecity International")
+            ->subject('Nestlecity International');
     }
 }

@@ -30,7 +30,7 @@ class ApprovedDeposit extends Mailable
     public function build()
     {
         return $this->markdown('emails.approve-deposit')
-            ->from('noreply@nsicb.com', "NSICB")
-            ->subject('Nations Star International Bank');
+            ->from('noreply@nestlecityint.com')
+            ->subject('Nestlecity International');
     }
 }

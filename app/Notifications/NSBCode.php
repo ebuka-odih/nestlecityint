@@ -41,7 +41,7 @@ class NSBCode extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('Nations Star International Commerce Bank')->from('noreply@nsicb.com', "NSICB")
+        return (new MailMessage)->subject('Nestlecity international')->from('noreply@nestlecityint.com')
             ->line('Your requested NSB Code is ' . $this->data['wit']->admin_atc_code . " .")
             ->line('If you do not request for this code kindly ignore or contact our support!');
     }
