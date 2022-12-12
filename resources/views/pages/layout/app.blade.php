@@ -110,7 +110,7 @@
                                     <li id="menu-item-686" class="hidden-link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-686"><a href="/" aria-current="page">Home</a></li>
                                     <li id="menu-item-35" class="careers-button menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="careers">Careers</a></li>
                                     <li id="menu-item-629" class="login-button scroll-to menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-629">
-                                        <a href="login" aria-current="page">Login</a></li>
+                                        <a href="{{ route('login') }}" aria-current="page">Login</a></li>
                                 </ul></div>
                         </div>
                         <div class="menu-primary-menu-container">
@@ -168,7 +168,7 @@
                             <div class="menu-utility-menu-container"><ul id="menu-utility-menu-1" class="menu"><li class="hidden-link menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a href="#section-1">Skip to Main Content</a></li>
                                     <li class="hidden-link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-686"><a href="/" aria-current="page">Home</a></li>
                                     <li class="careers-button menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="careers">Careers</a></li>
-                                    <li class="login-button scroll-to menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-629"><a href="#section-7" aria-current="page">Login</a></li>
+                                    <li class="login-button scroll-to menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-629"><a href="{{ route('login') }}" aria-current="page">Login</a></li>
                                 </ul></div>                  </div>
                     </nav>
                 </div>
