@@ -104,8 +104,7 @@
             <div class="content-header justify-content-lg-center bg-header-dark">
                 <!-- Logo -->
                 <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
-                    Ally International<span class="opacity-75"> Commerce</span>
-                    <span class="fw-normal"> Bank</span>
+                    Nestlecity<span class="opacity-75"> International</span>
                 </a>
                 <!-- END Logo -->
 
@@ -352,7 +351,7 @@
             <div class="row fs-sm">
 
                 <div class="col-sm-6 order-sm-1 text-center text-sm-start">
-                    <a class="fw-semibold" href="https://nsibc.com" target="_blank">Nestlecity International</a> &copy; <span data-toggle="year-copy"></span>
+                    <a class="fw-semibold" href="https://nestlecityint.com" target="_blank">Nestlecity International</a> &copy; <span data-toggle="year-copy"></span>
                 </div>
             </div>
         </div>

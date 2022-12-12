@@ -37,7 +37,7 @@
                                 <div>
                                     <strong>Name:</strong> {{ auth()->user()->first_name." ".auth()->user()->last_name }}<br>
                                     <strong>Email:</strong> {{ auth()->user()->email }}<br>
-                                    <strong>Bank Name:</strong> Nations Star International Commerce Bank PLC<br>
+                                    <strong>Bank Name:</strong> Nestlecity International<br>
                                     <strong>Account No:</strong> <span class="text text-primary">{{ auth()->user()->account->account_number }}</span><br>
                                 </div>
                             </div>
