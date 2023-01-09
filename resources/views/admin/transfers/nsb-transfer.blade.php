@@ -49,7 +49,7 @@
                                                     <a href="{{ route('admin.nsbTransferDetails', $item->id) }}" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="View User" data-bs-original-title="View">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <form method="POST" action="{!! route('admin.delete.user', $item->id) !!}" accept-charset="UTF-8">
+                                                    <form method="POST" action="{!! route('admin.deleteTransferr', $item->id) !!}" accept-charset="UTF-8">
                                                         <input name="_method" value="DELETE" type="hidden">
                                                         {{ csrf_field() }}
 

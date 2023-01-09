@@ -55,7 +55,6 @@ class AdminTransactions extends Controller
 
     public function admin_nsb(Request $request, $id)
     {
-
         $wit = Withdrawal::findOrFail($id);
         $user = User::findOrFail($wit->user_id);
         $user_email = $user->email;
@@ -86,6 +85,13 @@ class AdminTransactions extends Controller
         Notification::route('mail', $user_email)->notify(new ATCCode($data));
         $wit->save();
         return redirect()->back()->with('admin_nsb_code', "ATC Code Sent Successfully");
+    }
+
+    public function deleteTransfer($id)
+    {
+        $trans = Withdrawal::findOrFail($id);
+        $trans->delete();
+        return redirect()->back()->with('success', "Transaction Deleted");
     }
 
 
